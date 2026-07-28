@@ -337,7 +337,7 @@ export default function Footer() {
                 {SITE_CONFIG.address}
               </li>
 
-              <li className="flex items-start gap-2 flex-wrap">
+              {/* <li className="flex items-start gap-2 flex-wrap">
                 <Phone size={16} className="shrink-0 mt-0.5" />
 
                 <span className="flex items-center gap-2 flex-wrap">
@@ -360,6 +360,27 @@ export default function Footer() {
                     {SITE_CONFIG.phoneSecondary}
                   </a>
                 </span>
+              </li> */}
+
+
+              <li className="flex items-start gap-2">
+                <Phone size={16} className="shrink-0 mt-1" />
+
+                <div className="flex flex-col">
+                  <a
+                    href={SITE_CONFIG.phoneHref}
+                    className="hover:text-gold transition-colors"
+                  >
+                    {SITE_CONFIG.phone}
+                  </a>
+
+                  <a
+                    href={`tel:+${SITE_CONFIG.phoneSecondary.replace(/\D/g, "")}`}
+                    className="hover:text-gold transition-colors"
+                  >
+                    {SITE_CONFIG.phoneSecondary}
+                  </a>
+                </div>
               </li>
 
               <li className="flex items-center gap-2">
