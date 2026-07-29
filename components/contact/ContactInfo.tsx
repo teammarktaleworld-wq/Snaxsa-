@@ -1,3 +1,6 @@
+//C:\merge\snax-sa__\components\contact\ContactInfo.tsx
+
+
 "use client";
 
 import { motion } from "framer-motion";

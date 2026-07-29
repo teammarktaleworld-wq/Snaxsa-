@@ -12,13 +12,24 @@ export const metadata: Metadata = {
 function GalleryIllustration() {
   return (
     <div className="relative w-full max-w-sm mx-auto aspect-square glass rounded-4xl shadow-lift p-6 grid grid-cols-2 gap-3">
-      {["/images/jar-peri.png", "/images/jar-tangy.png", "/images/jar-minty.png", "/images/jar-snowpepper.png"].map(
-        (src) => (
-          <div key={src} className="relative rounded-2xl overflow-hidden bg-white/40">
-            <Image src={src} alt="Snax सा jar" fill className="object-contain p-2" />
-          </div>
-        )
-      )}
+      {[
+        "/images/peri/jar-peri.png",
+        "/images/tangy/jar-tangy.png",
+        "/images/mintypinch.jpeg",
+        "/images/pepperburst/pepperbursts.png",
+      ].map((src) => (
+        <div
+          key={src}
+          className="relative rounded-2xl overflow-hidden bg-white/40"
+        >
+          <Image
+            src={src}
+            alt="Snax सा jar"
+            fill
+            className="object-contain p-2"
+          />
+        </div>
+      ))}
     </div>
   );
 }

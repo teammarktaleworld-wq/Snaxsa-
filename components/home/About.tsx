@@ -29,6 +29,8 @@ export default function About() {
           </motion.div>
         </Reveal>
 
+
+
         <Reveal delay={0.1}>
           <p className="uppercase tracking-[0.22em] text-xs font-bold text-coral mb-3 flex items-center gap-2">
             <Sparkles size={14} /> Our Story

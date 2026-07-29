@@ -10,12 +10,12 @@ import GradientBlobs from "@/components/ui/GradientBlobs";
 import Reveal from "@/components/ui/Reveal";
 
 const galleryImages = [
-  { src: "/images/jar-peri.png", alt: "Peri Punch roasted makhana jar" },
-  { src: "/images/jar-tangy.png", alt: "Tangy Tingle roasted makhana jar" },
-  { src: "/images/jar-minty.png", alt: "Minty Pinch roasted makhana jar" },
-  { src: "/images/jar-snowpepper.png", alt: "Snow Pepper Burst roasted makhana jar" },
+  { src: "/images/peri/jar-peri.png", alt: "Peri Punch roasted makhana jar" },
+  { src: "/images/tangy/jar-tangy.png", alt: "Tangy Tingle roasted makhana jar" },
+  { src: "/images/mintypinch.jpeg", alt: "Minty Pinch roasted makhana jar" },
+  { src: "/images/pepperburst/pepperbursts.png", alt: "Snow Pepper Burst roasted makhana jar" },
   { src: "/images/jars-trio.png", alt: "Snax सा flavour line-up" },
-  { src: "/images/jar-tangy2.png", alt: "Snax सा jar, freshly packed" },
+  { src: "/images/tangy/masalatangy.png", alt: "Snax सा jar, freshly packed" },
 ];
 
 export default function Reviews() {

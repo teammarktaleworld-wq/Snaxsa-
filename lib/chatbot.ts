@@ -49,10 +49,30 @@ export const COMPANY_INFO = {
   delivery:
     "Free delivery within Jaipur, usually within 24-48 hours of order confirmation. We're expanding beyond Jaipur soon — message us on WhatsApp with your pin code to check availability.",
   flavours: [
-    { name: "Peri Punch", tagline: "Spicy & Tangy", price: 249, weight: "100g" },
-    { name: "Tangy Tingle", tagline: "Zesty & Bright", price: 229, weight: "100g" },
-    { name: "Minty Pinch", tagline: "Cool & Refreshing", price: 229, weight: "100g" },
-    { name: "Snow Pepper Burst", tagline: "Bold & Peppery", price: 249, weight: "100g" },
+    {
+      name: "Peri Punch",
+      tagline: "Spicy & Tangy",
+      price: 229,
+      weight: "85 gms",
+    },
+    {
+      name: "Tangy Tingle",
+      tagline: "Zesty & Bright",
+      price: 229,
+      weight: "85 gms",
+    },
+    {
+      name: "Minty Pinch",
+      tagline: "Cool & Refreshing",
+      price: 229,
+      weight: "85 gms",
+    },
+    {
+      name: "Snow Pepper Burst",
+      tagline: "Bold & Peppery",
+      price: 229,
+      weight: "85 gms",
+    },
   ],
   bulkOrders: [
     { label: "Corporate Gifting", minOrder: "50 jars" },
@@ -86,18 +106,27 @@ const rules: Rule[] = [
     reply: () =>
       `We make 4 signature flavours: ${COMPANY_INFO.flavours
         .map((f) => `${f.name} (${f.tagline})`)
-        .join(", ")}. Each jar is ${COMPANY_INFO.flavours[0].weight}. Want details on any one of them?`,
+        .join(
+          ", ",
+        )}. Each jar is ${COMPANY_INFO.flavours[0].weight}. Want details on any one of them?`,
   },
   {
     keywords: ["price", "cost", "how much", "rate", "pricing"],
     reply: () =>
       `Our jars are priced at ₹${Math.min(...COMPANY_INFO.flavours.map((f) => f.price))}–₹${Math.max(
-        ...COMPANY_INFO.flavours.map((f) => f.price)
+        ...COMPANY_INFO.flavours.map((f) => f.price),
       )} for a ${COMPANY_INFO.flavours[0].weight} jar, depending on the flavour. For bulk or gifting pricing, our team can share a custom quote — just reach out on WhatsApp!`,
   },
   {
-    keywords: ["product", "makhana", "fox nut", "what do you sell", "what is snax"],
-    reply: () => `${COMPANY_INFO.description} We currently offer ${COMPANY_INFO.flavours.length} flavours — want to hear about them?`,
+    keywords: [
+      "product",
+      "makhana",
+      "fox nut",
+      "what do you sell",
+      "what is snax",
+    ],
+    reply: () =>
+      `${COMPANY_INFO.description} We currently offer ${COMPANY_INFO.flavours.length} flavours — want to hear about them?`,
   },
   {
     keywords: ["category", "categories"],
@@ -107,19 +136,44 @@ const rules: Rule[] = [
         .join(", ")}.`,
   },
   {
-    keywords: ["bulk", "wholesale", "corporate", "wedding", "event", "gift box", "gifting"],
+    keywords: [
+      "bulk",
+      "wholesale",
+      "corporate",
+      "wedding",
+      "event",
+      "gift box",
+      "gifting",
+    ],
     reply: () =>
       `We love bulk & gifting orders! Options include ${COMPANY_INFO.bulkOrders
         .map((b) => `${b.label} (min. ${b.minOrder})`)
-        .join(", ")}. Custom branding is available for corporate orders of 50+ jars. Head to our Bulk Orders page or WhatsApp us to get a quote.`,
+        .join(
+          ", ",
+        )}. Custom branding is available for corporate orders of 50+ jars. Head to our Bulk Orders page or WhatsApp us to get a quote.`,
   },
   {
-    keywords: ["franchise", "partner", "partnership", "distributor", "reseller", "stockist"],
+    keywords: [
+      "franchise",
+      "partner",
+      "partnership",
+      "distributor",
+      "reseller",
+      "stockist",
+    ],
     reply: () =>
       `We're always open to franchise, distribution and partnership conversations! Please share a few details by email at ${COMPANY_INFO.email} or WhatsApp ${COMPANY_INFO.whatsapp}, and our business team will get back to you.`,
   },
   {
-    keywords: ["business", "enquiry", "enquire", "inquiry", "b2b", "collab", "collaboration"],
+    keywords: [
+      "business",
+      "enquiry",
+      "enquire",
+      "inquiry",
+      "b2b",
+      "collab",
+      "collaboration",
+    ],
     reply: () =>
       `Happy to help with business enquiries — the fastest route is emailing ${COMPANY_INFO.email} or messaging us on WhatsApp at ${COMPANY_INFO.whatsapp}.`,
   },
@@ -133,7 +187,8 @@ const rules: Rule[] = [
   },
   {
     keywords: ["email", "mail"],
-    reply: () => `Our email is ${COMPANY_INFO.email} — we usually reply within a day.`,
+    reply: () =>
+      `Our email is ${COMPANY_INFO.email} — we usually reply within a day.`,
   },
   {
     keywords: ["address", "location", "office", "where are you", "based"],
@@ -145,7 +200,8 @@ const rules: Rule[] = [
   },
   {
     keywords: ["social", "instagram", "facebook", "follow"],
-    reply: () => `Find us on Instagram at ${COMPANY_INFO.social.instagram} and Facebook at ${COMPANY_INFO.social.facebook}!`,
+    reply: () =>
+      `Find us on Instagram at ${COMPANY_INFO.social.instagram} and Facebook at ${COMPANY_INFO.social.facebook}!`,
   },
   {
     keywords: ["faq", "question", "help"],
@@ -153,7 +209,15 @@ const rules: Rule[] = [
       `Sure — you can browse our full FAQ page on the site, or ask me directly about products, delivery, bulk orders or contact details.`,
   },
   {
-    keywords: ["preservative", "fried", "roast", "gluten", "protein", "healthy", "ingredient"],
+    keywords: [
+      "preservative",
+      "fried",
+      "roast",
+      "gluten",
+      "protein",
+      "healthy",
+      "ingredient",
+    ],
     reply: () =>
       `Every jar is roasted (never fried), made with zero preservatives, naturally gluten free and high in protein — real seasoning, real crunch.`,
   },
@@ -168,7 +232,14 @@ const rules: Rule[] = [
       `As a packaged food product we can't accept returns once a jar is opened. If your order arrives damaged or incorrect, message us on WhatsApp within 48 hours with a photo and we'll sort out a replacement or refund.`,
   },
   {
-    keywords: ["store", "storage", "shelf life", "expiry", "expire", "how long does it last"],
+    keywords: [
+      "store",
+      "storage",
+      "shelf life",
+      "expiry",
+      "expire",
+      "how long does it last",
+    ],
     reply: () =>
       `Keep the jar sealed in a cool, dry place away from sunlight, and reseal it tightly after opening. Unopened, each jar has a shelf life of around 6 months from the roast date.`,
   },
