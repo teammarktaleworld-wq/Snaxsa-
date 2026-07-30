@@ -413,7 +413,7 @@
 
 
 
-
+// C:\Marktale-projectes\Snaxsa-\components\home\FlavoursHighlight.tsx
 
 
 
@@ -449,7 +449,7 @@ export default function FlavoursHighlight() {
             className="mb-0"
           />
           <Link
-            href="/flavours"
+            href="/order"
             className="hidden sm:inline-flex items-center gap-1.5 text-sm font-semibold text-royal hover:text-coral transition-colors"
           >
             View All Flavours <ArrowRight size={16} />
@@ -495,7 +495,7 @@ export default function FlavoursHighlight() {
                     <h3 className="font-display font-bold text-lg text-ink">{flavour.name}</h3>
                     <p className="text-xs text-ink-soft/70 mb-4">{flavour.tagline}</p>
                     <MagneticButton className="w-full">
-                      <Button variant="secondary" size="sm" className="w-full" href="/flavours">
+                      <Button variant="secondary" size="sm" className="w-full" href="/order">
                         Learn More
                       </Button>
                     </MagneticButton>
@@ -508,7 +508,7 @@ export default function FlavoursHighlight() {
 
         <div className="mt-8 text-center sm:hidden">
           <Link
-            href="/flavours"
+            href="/order"
             className="inline-flex items-center gap-1.5 text-sm font-semibold text-royal"
           >
             View All Flavours <ArrowRight size={16} />

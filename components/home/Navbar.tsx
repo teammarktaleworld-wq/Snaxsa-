@@ -13,7 +13,7 @@ import Image from "next/image";
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  { label: "Order", href: "/flavours" },
+  { label: "Order", href: "/order" },
   { label: "Benefits", href: "/benefits" },
   { label: "Gallery", href: "/gallery" },
   { label: "Bulk Orders", href: "/bulk-orders" },
@@ -89,7 +89,7 @@ export default function Navbar() {
               WhatsApp
             </Button>
             <MagneticButton>
-              <Button variant="primary" size="sm" href="/flavours">
+              <Button variant="primary" size="sm" href="/order">
                 Order Now
               </Button>
             </MagneticButton>
@@ -138,7 +138,7 @@ export default function Navbar() {
                 >
                   WhatsApp
                 </Button>
-                <Button variant="primary" size="sm" className="flex-1" href="/flavours" onClick={() => setOpen(false)}>
+                <Button variant="primary" size="sm" className="flex-1" href="/order" onClick={() => setOpen(false)}>
                   Order Now
                 </Button>
               </li>

@@ -1,3 +1,4 @@
+// C:\Marktale-projectes\Snaxsa-\lib\chatbot.ts
 /**
  * Snax सा AI Assistant — response engine.
  *
@@ -33,7 +34,7 @@ export interface ChatMessage {
 // future LLM call — see SYSTEM_PROMPT below).
 // ---------------------------------------------------------------------
 export const COMPANY_INFO = {
-  name: "Snax सा",
+  name: SITE_CONFIG.companyName,
   tagline: "Healthy Crunch. Royal Taste.",
   description:
     "Premium roasted (never fried) makhana / fox nuts, made in small batches in Jaipur, Rajasthan. High in protein, zero preservatives, gluten free.",

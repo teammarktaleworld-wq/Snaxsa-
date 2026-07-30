@@ -179,7 +179,7 @@
 
 
 
-
+// C:\Marktale-projectes\Snaxsa-\components\home\Hero.tsx
 
 
 
@@ -204,7 +204,10 @@ const trustPills = [
 // until then it falls back to scrolling visitors to the Flavours/Products
 // section on this page, so the button is never inactive.
 const amazonConfigured = SITE_CONFIG.amazon.classic && SITE_CONFIG.amazon.classic !== "#";
-const buyNowHref = amazonConfigured ? SITE_CONFIG.amazon.classic : "/#flavours";
+// const buyNowHref = amazonConfigured ? SITE_CONFIG.amazon.classic : "/#flavours";
+const buyNowHref = amazonConfigured
+  ? SITE_CONFIG.amazon.classic
+  : "/order";
 
 export default function Hero() {
   return (
@@ -275,8 +278,8 @@ export default function Hero() {
             >
               Buy Now
             </Button>
-            <Button variant="outline" size="lg" href="/flavours">
-              Explore Flavours
+            <Button variant="outline" size="lg" href="/#flavours">
+              Explore Flavours TEST
             </Button>
             <Button
               variant="whatsapp"

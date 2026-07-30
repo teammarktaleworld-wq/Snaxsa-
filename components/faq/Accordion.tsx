@@ -1,3 +1,4 @@
+// C:\Marktale-projectes\Snaxsa-\components\faq\Accordion.tsx
 "use client";
 
 import { useMemo, useState } from "react";

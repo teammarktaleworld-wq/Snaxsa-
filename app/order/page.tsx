@@ -38,7 +38,7 @@
 // }
 
 
-
+// C:\Marktale-projectes\Snaxsa-\app\order\page.tsx
 
 import { Metadata } from "next";
 import Image from "next/image";

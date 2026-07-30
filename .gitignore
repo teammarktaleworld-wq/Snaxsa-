@@ -12,6 +12,12 @@ out/
 .env.test.local
 .env.production.local
 
+# Vercel
+.vercel/
+
+# VS Code
+.vscode/
+
 # Logs
 *.log
 

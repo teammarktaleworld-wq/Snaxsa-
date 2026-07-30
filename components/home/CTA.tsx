@@ -92,7 +92,7 @@ import MagneticButton from "@/components/ui/MagneticButton";
 import Reveal from "@/components/ui/Reveal";
 
 const amazonConfigured = SITE_CONFIG.amazon.classic && SITE_CONFIG.amazon.classic !== "#";
-const buyNowHref = amazonConfigured ? SITE_CONFIG.amazon.classic : "/flavours";
+const buyNowHref = amazonConfigured ? SITE_CONFIG.amazon.classic : "/order";
 
 const particles = Array.from({ length: 10 }).map((_, i) => ({
   id: i,
