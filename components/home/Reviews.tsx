@@ -62,7 +62,7 @@ export default function Reviews() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-pink-gradient text-white font-semibold text-sm shadow-glow hover:-translate-y-0.5 transition-transform"
           >
-            <InstagramIcon size={16} /> Follow on Instagram
+            <InstagramIcon size={16} /> Follow us on Instagram
           </a>
         </div>
       </div>

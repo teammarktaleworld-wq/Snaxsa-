@@ -1545,7 +1545,7 @@ function ContactCard() {
           <span className="w-7 h-7 rounded-full bg-maroon/8 flex items-center justify-center shrink-0 group-hover:bg-maroon/15 transition-colors">
             <Instagram size={13} className="text-maroon" />
           </span>
-          <span className="font-medium">Follow on Instagram</span>
+          <span className="font-medium">Follow us on Instagram</span>
         </a>
         <div className="flex items-center gap-2.5 text-xs text-ink/60">
           <span className="w-7 h-7 rounded-full bg-maroon/8 flex items-center justify-center shrink-0">
