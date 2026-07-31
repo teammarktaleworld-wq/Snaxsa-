@@ -104,7 +104,7 @@ const FLAVOUR_META: Record<
     tastingNotes: [
       { emoji: "🫚", note: "Cracked pepper" },
       { emoji: "🏔️", note: "Pink salt crystals" },
-      { emoji: "🌡️", label: "Slow warmth" },
+      { emoji: "🌡️", note: "Slow warmth" },
       { emoji: "🧂", note: "Mineral finish" },
     ],
     pairings: [
