@@ -198,56 +198,56 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "g1",
     type: "image",
-    src: "/images/4flavours.webp",
+    src: "/images/Snaxsa main/gallery/4flavours.png",
     caption: "Sunset over Hawa Mahal",
   },
 
   {
     id: "g2",
     type: "image",
-    src: "/images/peri/jar-peri.png",
+    src: "/images/Snaxsa main/Peri-punch/Peri-punch-best-alone.png",
     caption: "Peri Punch, fresh batch",
   },
 
   {
     id: "g3",
     type: "image",
-    src: "/images/office.webp",
+    src: "/images/Snaxsa main/gallery/office.png",
     caption: "Healthy Crunch. Royal Taste.",
   },
 
   {
     id: "g4",
     type: "image",
-    src: "/images/jars-trio.png",
+    src: "/images/Snaxsa main/gallery/quadproductimage.png",
     caption: "The full flavour line-up",
   },
 
   {
     id: "g5",
     type: "image",
-    src: "/images/mintypinch.jpeg",
+    src: "/images/Snaxsa main/minty-pinch/Minty-pinch-alone.webp",
     caption: "Minty Pinch for tea-time",
   },
 
   {
     id: "g6",
     type: "image",
-    src: "/images/child.webp",
+    src: "/images/Snaxsa main/gallery/Child.png",
     caption: "Everyday healthy snacking",
   },
 
   {
     id: "g7",
     type: "image",
-    src: "/images/tangy/jar-tangy.png",
+    src: "/images/Snaxsa main/Tangy/Tangy-tingle-alone.webp",
     caption: "Tangy Tingle, up close",
   },
 
   {
     id: "g8",
     type: "image",
-    src: "/images/pepperburst/pepperbursts.png",
+    src: "/images/Snaxsa main/Pepper-burst/Pepper-burst-alone-best.png",
     caption: "Snow Pepper Burst",
   },
 
@@ -261,13 +261,13 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "g10",
     type: "image",
-    src: "/images/tangy/masalatangy.png",
+    src: "/images/Snaxsa main/Tangy/Tangy-tingle-alone.webp",
     caption: "Packed fresh, sealed tight",
   },
   {
     id: "g11",
     type: "image",
-    src: "/images/woman.webp",
+    src: "/images/Snaxsa main/gallery/woman.png",
     caption: "Packed fresh, sealed tight",
   },
 ];

@@ -199,7 +199,7 @@ export default function ContactPage() {
         illustration={
           <div className="relative w-[420px] h-[420px] hidden lg:block">
             <Image
-              src="/images/frame.png"
+              src="/images/Snaxsa main/gallery/frames.png"
               alt="Snax सा 4 Flavours"
               fill
               priority
@@ -250,7 +250,7 @@ export default function ContactPage() {
 
               <div className="overflow-hidden rounded-[32px] glass shadow-lift bg-white">
                 <Image
-                  src="/images/4flavours.webp"
+                  src="/images/Snaxsa main/gallery/4flavours.png"
                   alt="Snax सा"
                   width={1200}
                   height={800}

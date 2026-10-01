@@ -13,10 +13,10 @@ function GalleryIllustration() {
   return (
     <div className="relative w-full max-w-sm mx-auto aspect-square glass rounded-4xl shadow-lift p-6 grid grid-cols-2 gap-3">
       {[
-        "/images/peri/jar-peri.png",
-        "/images/tangy/jar-tangy.png",
-        "/images/mintypinch.jpeg",
-        "/images/pepperburst/pepperbursts.png",
+        "/images/Snaxsa main/Peri-punch/Peri-punch-best-alone.png",
+        "/images/Snaxsa main/Tangy/Tangy-tingle-alone.webp",
+        "/images/Snaxsa main/minty-pinch/Minty-pinch-alone.webp",
+        "/images/Snaxsa main/Pepper-burst/Pepper-burst-alone-best.png",
       ].map((src) => (
         <div
           key={src}

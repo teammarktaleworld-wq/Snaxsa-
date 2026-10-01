@@ -26,12 +26,12 @@ import Reveal from "@/components/ui/Reveal";
 
 
 const galleryImages = [
-  { src: "/images/Snaxsa main/Peri-punch/Peri-punch-alone.webp", alt: "Peri Punch roasted makhana jar" },
+  { src: "/images/Snaxsa main/Peri-punch/Peri-punch-best-alone.png", alt: "Peri Punch roasted makhana jar" },
   { src: "/images/Snaxsa main/Tangy/Tangy-tingle-alone.webp", alt: "Tangy Tingle roasted makhana jar" },
   { src: "/images/Snaxsa main/minty-pinch/Minty-pinch-alone.webp", alt: "Minty Pinch roasted makhana jar" },
-  { src: "/images/Snaxsa main/Pepper-burst/pepper-burst-alone.webp", alt: "Snow Pepper Burst roasted makhana jar" },
-  { src: "/images/Snaxsa main/All-flavours.webp", alt: "Snax सा flavour line-up" },
-  { src: "/images/Snaxsa main/All-flovours-with-girl.webp", alt: "Snax सा flavours being enjoyed" },
+  { src: "/images/Snaxsa main/Pepper-burst/Pepper-burst-alone-best.png", alt: "Snow Pepper Burst roasted makhana jar" },
+  { src: "/images/Snaxsa main/All-flavours-best.png", alt: "Snax सा flavour line-up" },
+  { src: "/images/Snaxsa main/All-flavours-image-with-girl.png", alt: "Snax सा flavours being enjoyed" },
 ];
 
 export default function Reviews() {
