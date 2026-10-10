@@ -12,10 +12,10 @@ function digitsOnly(value: string) {
   return value.replace(/\D/g, "");
 }
 
-const PHONE_PRIMARY = process.env.NEXT_PUBLIC_PHONE || "+91 88520 15567";
+const PHONE_PRIMARY = process.env.NEXT_PUBLIC_PHONE || "+91 95092 59962";
 const PHONE_SECONDARY = process.env.NEXT_PUBLIC_PHONE_SECONDARY || "+91 95092 59962";
 
-const WHATSAPP_PRIMARY = process.env.NEXT_PUBLIC_WHATSAPP || "+91 88520 15567";
+const WHATSAPP_PRIMARY = process.env.NEXT_PUBLIC_WHATSAPP || "+91 95092 59962";
 const WHATSAPP_SECONDARY = process.env.NEXT_PUBLIC_WHATSAPP_SECONDARY || "+91 95092 59962";
 
 export const SITE_CONFIG = {
@@ -30,8 +30,8 @@ export const SITE_CONFIG = {
   whatsappHref: `https://wa.me/${digitsOnly(WHATSAPP_PRIMARY)}`,
   whatsappSecondaryHref: `https://wa.me/${digitsOnly(WHATSAPP_SECONDARY)}`,
 
-  email: process.env.NEXT_PUBLIC_EMAIL || "hello@snaxsa.com",
-  supportEmail: process.env.NEXT_PUBLIC_SUPPORT_EMAIL || "hello@snaxsa.com",
+  email: process.env.NEXT_PUBLIC_EMAIL || "snaxsafoods@gmail.com",
+  supportEmail: process.env.NEXT_PUBLIC_SUPPORT_EMAIL || "snaxsafoods@gmail.com",
 
   address: process.env.NEXT_PUBLIC_ADDRESS || "Jaipur, Rajasthan, India",
   hours: process.env.NEXT_PUBLIC_HOURS || "Monday–Saturday, 9am–8pm IST",
@@ -41,9 +41,9 @@ export const SITE_CONFIG = {
   social: {
     instagram:
       process.env.NEXT_PUBLIC_INSTAGRAM ||
-      "https://www.instagram.com/snaxsa_makhaana?utm_source=qr&igsh=aDFiY3A5cjE2ZHpy",
-    facebook: process.env.NEXT_PUBLIC_FACEBOOK || "",
-    linkedin: process.env.NEXT_PUBLIC_LINKEDIN || "",
+      "https://www.instagram.com/snaxsa_makhaana",
+    facebook: process.env.NEXT_PUBLIC_FACEBOOK || "https://www.facebook.com/profile.php?id=61592456927156",
+    linkedin: process.env.NEXT_PUBLIC_LINKEDIN || "https://www.linkedin.com/in/snaxsafoods-makhana-37b157439/",
     youtube: process.env.NEXT_PUBLIC_YOUTUBE || "",
   },
 
