@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 "use client";
 
 import Image from "next/image";
@@ -78,7 +70,7 @@ export default function FlavoursHighlight() {
               <div className="h-full overflow-hidden rounded-3xl border border-ink/10 bg-white/85 shadow-[0_14px_45px_rgba(60,40,20,0.07)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(60,40,20,0.13)]">
                 {(() => {
                   const flavourGallery = flavourPageDetails[flavour.id]?.gallery ?? [];
-                  const hoverImage = flavourGallery.find((image) => /burst|explosion/i.test(image.label))?.src ?? flavourGallery[2]?.src ?? flavour.image;
+                  const hoverImage = flavourGallery.find((image) => /(?:makhana|flavour) burst|explosion/i.test(image.label))?.src ?? flavourGallery[2]?.src ?? flavour.image;
                   return (
                     <Link
                       href={`/flavours/${flavour.id}`}
