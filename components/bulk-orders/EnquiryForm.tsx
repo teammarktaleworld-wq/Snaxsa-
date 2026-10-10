@@ -341,13 +341,13 @@ const contactDetails = [
   {
     icon: <Phone size={16} />,
     label: "Call / WhatsApp",
-    value: "+91 98765 43210",
+    value: SITE_CONFIG.whatsapp,
     color: "#25D366",
   },
   {
     icon: <Mail size={16} />,
     label: "Email",
-    value: "bulk@snaxsa.com",
+    value: SITE_CONFIG.email,
     color: "#E91E63",
   },
   {

@@ -68,8 +68,7 @@ export const flavourPageDetails: Record<string, FlavourPageDetails> = {
     notes: ["Strawberry", "Cream", "Vanilla", "Sweet crunch"],
     pairings: ["Tea break", "Dessert plate", "Afternoon treat", "On the go"],
     gallery: [
-      { src: `${detailRoot}/strawberry-bliss/hero_cutout.png`, label: "Strawberry Bliss jar" },
-      { src: "/images/product-assets/jars/strawberry-bliss-jar.png", label: "Strawberry Bliss product jar" },
+      { src: `${detailRoot}/strawberry-bliss/1_jar.jpg`, label: "Strawberry Bliss product jar" },
       { src: `${detailRoot}/strawberry-bliss/Strawberry Bliss Makhana Burst.png`, label: "Strawberry Bliss flavour burst" },
       { src: `${detailRoot}/strawberry-bliss/3_features.jpg`, label: "Strawberry Bliss product highlights" },
       { src: `${detailRoot}/strawberry-bliss/4_ingredients.jpg`, label: "Strawberry Bliss ingredients and nutrition" },
@@ -81,8 +80,7 @@ export const flavourPageDetails: Record<string, FlavourPageDetails> = {
     notes: ["Creamy seasoning", "Onion", "Parsley", "Savoury crunch"],
     pairings: ["Movie night", "Evening chai", "Desk snack", "Sharing bowl"],
     gallery: [
-      { src: `${detailRoot}/creamy-twist/hero_cutout.png`, label: "Creamy Twist jar" },
-      { src: "/images/product-assets/jars/creamy-twist-jar.png", label: "Creamy Twist product jar" },
+      { src: `${detailRoot}/creamy-twist/1_jar.jpg`, label: "Creamy Twist product jar" },
       { src: `${detailRoot}/creamy-twist/Creamy Twist Makhana Explosion.png`, label: "Creamy Twist flavour burst" },
       { src: `${detailRoot}/creamy-twist/3_features.jpg`, label: "Creamy Twist product highlights" },
       { src: `${detailRoot}/creamy-twist/4_ingredients.jpg`, label: "Creamy Twist ingredients and nutrition" },

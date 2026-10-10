@@ -1652,7 +1652,7 @@ function FlavourListCard({ onSelect }: { onSelect: (id: string) => void }) {
             className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl bg-maroon/4 hover:bg-maroon/10 transition-colors group"
           >
             <Image
-              src={f.image ?? "/images/pepperburst/pepperbursts.png"}
+              src={f.image ?? "/images/product-assets/product-detail-set/snow-pepper-burst/1_jar.jpg"}
               alt={f.name}
               width={50}
               height={50}
@@ -1682,7 +1682,7 @@ function FlavourDetailCard({ flavourId }: { flavourId: string }) {
       {/* Image banner on top of the detail card */}
       <div className="relative w-full h-28">
         <Image
-          src={f.image ?? "/images/pepperburst/pepperbursts.png"}
+          src={f.image ?? "/images/product-assets/product-detail-set/snow-pepper-burst/1_jar.jpg"}
           alt={f.name}
           fill
           className="object-cover"

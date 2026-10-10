@@ -122,7 +122,7 @@ export default function ProductDetail({ flavour }: { flavour: Flavour }) {
           <div ref={carouselRef} className="-mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-5 scrollbar-none sm:mx-0 sm:gap-6 sm:px-0">
             {flavours.filter((item) => item.id !== flavour.id).map((item) => {
               const itemGallery = flavourPageDetails[item.id]?.gallery ?? [];
-              const hoverImage = itemGallery.find((image) => /burst|explosion/i.test(image.label))?.src ?? itemGallery[2]?.src ?? item.image;
+              const hoverImage = itemGallery.find((image) => /(?:makhana|flavour) burst|explosion/i.test(image.label))?.src ?? itemGallery[2]?.src ?? item.image;
               return (
                 <article key={item.id} className="w-[72vw] max-w-[280px] shrink-0 snap-start overflow-hidden rounded-3xl border border-[#eadfd4] bg-white shadow-[0_12px_38px_rgba(76,37,28,0.07)] sm:w-[calc((100%-3rem)/3)] sm:max-w-none">
                   <Link href={`/flavours/${item.id}`} aria-label={`View ${item.name} product details`} className="group relative block aspect-square overflow-hidden" style={{ background: `linear-gradient(145deg, ${item.colorFrom}18, ${item.colorTo}12)` }}>

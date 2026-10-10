@@ -201,63 +201,54 @@ export const galleryItems: GalleryItem[] = [
     src: "/images/Snaxsa main/gallery/4flavours.png",
     caption: "Sunset over Hawa Mahal",
   },
-
   {
     id: "g2",
     type: "image",
-    src: "/images/Snaxsa main/Peri-punch/Peri-punch-best-alone.png",
+    src: "/images/product-assets/product-detail-set/peri-punch/1_jar.jpg",
     caption: "Peri Punch, fresh batch",
   },
-
   {
     id: "g3",
     type: "image",
     src: "/images/Snaxsa main/gallery/office.png",
     caption: "Healthy Crunch. Royal Taste.",
   },
-
   {
     id: "g4",
     type: "image",
     src: "/images/Snaxsa main/gallery/quadproductimage.png",
     caption: "The full flavour line-up",
   },
-
   {
     id: "g5",
     type: "image",
-    src: "/images/Snaxsa main/minty-pinch/Minty-pinch-alone.webp",
+    src: "/images/product-assets/product-detail-set/minty-pinch/1_jar.jpg",
     caption: "Minty Pinch for tea-time",
   },
-
   {
     id: "g6",
     type: "image",
     src: "/images/Snaxsa main/gallery/Child.png",
     caption: "Everyday healthy snacking",
   },
-
   {
     id: "g7",
     type: "image",
-    src: "/images/Snaxsa main/Tangy/Tangy-tingle-alone.webp",
+    src: "/images/product-assets/product-detail-set/tangy-tingle/1_jar.jpg",
     caption: "Tangy Tingle, up close",
   },
-
   {
     id: "g8",
     type: "image",
-    src: "/images/Snaxsa main/Pepper-burst/Pepper-burst-alone-best.png",
+    src: "/images/product-assets/product-detail-set/snow-pepper-burst/1_jar.jpg",
     caption: "Snow Pepper Burst",
   },
-
   // {
   //   id: "g9",
   //   type: "image",
   //   src: "/images/trawel.png",
   //   caption: "Made in Jaipur, loved everywhere",
   // },
-
   {
     id: "g10",
     type: "image",
