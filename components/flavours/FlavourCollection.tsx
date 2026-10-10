@@ -43,7 +43,7 @@ export default function FlavourCollection() {
                     background: `radial-gradient(ellipse at 50% 45%, ${flavour.colorFrom}22, #fff8ef 70%)`,
                   }}
                 >
-                  <span className="absolute left-4 top-4 rounded-full border border-white/70 bg-white/80 px-3 py-1 text-[10px] font-bold tracking-widest text-[#77564b]">
+                  <span className="absolute left-4 top-4 z-10 rounded-full border border-white/70 bg-white/80 px-3 py-1 text-[10px] font-bold tracking-widest text-[#77564b]">
                     {flavour.tagline.toUpperCase()}
                   </span>
                   <Image
