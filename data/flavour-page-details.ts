@@ -68,7 +68,7 @@ export const flavourPageDetails: Record<string, FlavourPageDetails> = {
     notes: ["Strawberry", "Cream", "Vanilla", "Sweet crunch"],
     pairings: ["Tea break", "Dessert plate", "Afternoon treat", "On the go"],
     gallery: [
-      { src: `${detailRoot}/strawberry-bliss/1_jar.jpg`, label: "Strawberry Bliss product jar" },,
+      { src: `${detailRoot}/strawberry-bliss/1_jar.jpg`, label: "Strawberry Bliss product jar" },
       { src: "/images/product-assets/jars/strawberry-bliss-jar.png", label: "Strawberry Bliss product jar" },
       { src: `${detailRoot}/strawberry-bliss/Strawberry Bliss Makhana Burst.png`, label: "Strawberry Bliss flavour burst" },
       { src: `${detailRoot}/strawberry-bliss/3_features.jpg`, label: "Strawberry Bliss product highlights" },
