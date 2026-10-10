@@ -18,18 +18,11 @@ import Reveal from "@/components/ui/Reveal";
 //   { src: "/images/tangy/masalatangy.png", alt: "Snax सा jar, freshly packed" },
 // ];
 
-
-
-
-
-
-
-
 const galleryImages = [
-  { src: "/images/Snaxsa main/Peri-punch/Peri-punch-best-alone.png", alt: "Peri Punch roasted makhana jar" },
-  { src: "/images/Snaxsa main/Tangy/Tangy-tingle-alone.webp", alt: "Tangy Tingle roasted makhana jar" },
-  { src: "/images/Snaxsa main/minty-pinch/Minty-pinch-alone.webp", alt: "Minty Pinch roasted makhana jar" },
-  { src: "/images/Snaxsa main/Pepper-burst/Pepper-burst-alone-best.png", alt: "Snow Pepper Burst roasted makhana jar" },
+  { src: "/images/product-assets/product-detail-set/peri-punch/1_jar.jpg", alt: "Peri Punch roasted makhana jar" },
+  { src: "/images/product-assets/product-detail-set/tangy-tingle/1_jar.jpg", alt: "Tangy Tingle roasted makhana jar" },
+  { src: "/images/product-assets/product-detail-set/minty-pinch/1_jar.jpg", alt: "Minty Pinch roasted makhana jar" },
+  { src: "/images/product-assets/product-detail-set/snow-pepper-burst/1_jar.jpg", alt: "Snow Pepper Burst roasted makhana jar" },
   { src: "/images/Snaxsa main/All-flavours-best.png", alt: "Snax सा flavour line-up" },
   { src: "/images/Snaxsa main/All-flavours-image-with-girl.png", alt: "Snax सा flavours being enjoyed" },
 ];
