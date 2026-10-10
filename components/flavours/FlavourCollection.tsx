@@ -26,7 +26,7 @@ export default function FlavourCollection() {
           {flavours.map((flavour, index) => {
             const flavourGallery = flavourPageDetails[flavour.id]?.gallery ?? [];
             const hoverImage =
-              flavourGallery.find((image) => /burst|explosion/i.test(image.label))
+              flavourGallery.find((image) => /(?:makhana|flavour) burst|explosion/i.test(image.label))
                 ?.src ??
               flavourGallery[2]?.src ??
               flavour.image;
